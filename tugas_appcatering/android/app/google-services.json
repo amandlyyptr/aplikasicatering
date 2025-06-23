@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "758818844805",
+    "project_id": "tugas-appcatering",
+    "storage_bucket": "tugas-appcatering.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758818844805:android:6a62631d3e2a674c08b9ec",
+        "android_client_info": {
+          "package_name": "com.example.tugas_appcatering"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQs7nHe-bTJ1fZ2e7zBDA7fLiBqvOfGOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+name: tugas_appcatering
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.de
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.0
+  url_launcher: ^6.1.14
+  http: ^0.13.6
+  firebase_core: ^2.24.0
+  firebase_storage: ^11.7.7
+  firebase_auth: ^4.15.0
+  cloud_firestore: ^4.15.0
+  provider: ^6.1.1
+  image_picker: ^0.8.7+4     # Ganti ke versi null safety terbaru
+  permission_handler: ^11.0.1
+  js: ^0.7.2
+  intl: ^0.18.1
+  cupertino_icons: ^1.0.8
+  geolocator: ^9.0.2
+  #flutter_local_notifications: ^19.2.1
+  geocoding: ^2.0.5
+  path_provider: ^2.0.11
+  firebase_app_check: ^0.2.2+7
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.1
+  #gallery_saver: ^2.3.3
+  image_gallery_saver_plus: ^4.0.1
+  #connectivity_plus: ^6.1.4
+  connectivity_plus: ^2.3.0
+  flutter_image_compress: ^2.0.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logospalsh.png
+    - assets/awallogo.png
+    - assets/bg_1.jpg
+    - assets/logo_2.png
+    - assets/harian.jpg
+    - assets/nikahan.jpg
+    - assets/ulangtahun.jpg
+    - assets/kantoran.jpg
+    - assets/tasyakuran.jpg
+    - assets/aqiqah.jpg
+    - assets/bukabersama.jpg
+    - assets/nasikotak.jpg
+    - assets/logo_8.png
+    - assets/ctr_logo3.jpg
+    - assets/logo-login.png
+    - assets/register_logo.png
+    - assets/nasi_goreng.jpg
+    - assets/sateayam.jpg
+    - assets/rendang.jpg
+    - assets/gulai.jpg
+    - assets/ikon-apk.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/ikon-apk.png"
